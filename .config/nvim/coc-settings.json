@@ -1,0 +1,15 @@
+{
+    "[java]": {
+        "semanticTokens.enable": true,
+    },
+    "java.codeGeneration.generateComments": true,
+    "java.jdt.ls.vmargs":"-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -Xlog:jni+resolve=off",
+    "rust-analyzer.enable": true,
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/18.1.3/clangd_18.1.3/bin/clangd",
+    "zig.enabled": true,
+    "zig.startUpMessage": true,
+    "zig.path": "zls",
+    "zig.debugLog": false,
+    "elixir.enable": true,
+    "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+}

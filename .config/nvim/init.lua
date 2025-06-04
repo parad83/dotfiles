@@ -1,0 +1,5 @@
+require('options')
+require('autocommands')
+require('mappings')
+require('plugin_man')
+require('lsp_conf')
